@@ -3,7 +3,7 @@ import requests
 import json
 import logging
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 
 
@@ -50,7 +50,7 @@ def get_price(ticker):
         app.logger.error("Exception occurred", exc_info=True)
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app.run()
 
 
